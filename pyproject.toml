@@ -1,0 +1,16 @@
+[project]
+name = "churn-data-pipeline"
+version = "0.1.0"
+description = "Churn data pipeline for customer analytics"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.3.5",
+    "pandas>=2.3.3",
+    "psycopg2-binary>=2.9.11",
+    "scikit-learn>=1.8.0",
+    "matplotlib>=3.8.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
